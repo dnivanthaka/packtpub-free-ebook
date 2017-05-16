@@ -1,5 +1,5 @@
-'''Automated script to claim the free packepub book of the day to your packtpub account.'''
-'''Author D.N. Amerasinghe <nivanthaka@gmail.com>'''
+#Automated script to claim the free packepub book of the day to your packtpub account.
+#Author D.N. Amerasinghe <nivanthaka@gmail.com>
 #!/usr/env python
 
 import requests
