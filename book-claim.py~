@@ -38,7 +38,6 @@ result = session_requests.post(
 #headers = dict(referer=login_url)
 
 #print result.text
-tree = html.fromstring(result.text)
 
 logged_in_chk = list(set(tree.xpath("//div[@id='account-bar-logged-in']")))[0]
 
